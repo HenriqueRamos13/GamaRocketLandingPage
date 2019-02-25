@@ -1,0 +1,467 @@
+.backgorund {
+    width: 100%;
+    height: 120vh;
+    background-image: url('../img/event.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.backgorund .texts {
+    width: 95%;
+    height: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-shrink: 2;
+    text-align: center;
+}
+.backgorund .texts #first {
+    color: #efa506;
+    font-size: 5em;
+    font-weight: 300;
+}
+.backgorund .texts #second {
+    font-size: 7em;
+    font-weight: 700;
+}
+.backgorund .texts div {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.backgorund .texts div #third {
+    font-size: 2em;
+    font-weight: 300;
+}
+.backgorund .texts div #fourth {
+    font-size: 2em;
+    font-weight: 300;
+}
+
+.backgorund .texts .btn-buy-back {
+	color: white;
+	background: rgba(236,57,139,1);
+	height: 60px;
+	width: 150px;
+	transition: 0.5s;
+	cursor: pointer;
+}
+.backgorund .texts .btn-buy-back:hover  {
+	border-radius: 15px;
+}
+
+@media screen and (max-width: 992px){
+    .backgorund .texts #first {
+        font-size: 3em;
+    }
+    .backgorund .texts #second {
+        font-size: 5em;
+    }
+    .backgorund .texts div #third {
+        font-size: 1.6em;
+    }
+    .backgorund .texts div #fourth {
+        font-size: 1.6em;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .backgorund .texts #first {
+        font-size: 2.7em;
+    }
+    .backgorund .texts #second {
+        font-size: 3.5em;
+    }
+    .backgorund .texts div {
+        width: 100%;
+        height: 15%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .backgorund .texts div #third {
+        font-size: 1.5em;
+    }
+    .backgorund .texts div #fourth {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .backgorund {
+        height: 100vh;
+    }
+    .backgorund .texts #first {
+        font-size: 2em;
+    }
+    .backgorund .texts #second {
+        font-size: 2.5em;
+    }
+}
+
+@media screen and (max-width: 330px){
+    .backgorund .texts #first {
+        font-size: 1.7em;
+    }
+    .backgorund .texts #second {
+        font-size: 2.2em;
+    }
+    .backgorund .texts div #third {
+        font-size: 1.2em;
+    }
+    .backgorund .texts div #fourth {
+        font-size: 1.2em;
+    }
+}
+
+
+
+
+
+.time {
+    background: rgba(27,39,63,0.9);
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+.time li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+} 
+.time li span {
+    display: block;
+    font-size: 4.5rem;
+}
+
+@media screen and (max-width: 500px) {
+    .time {
+        height: 170px;
+    }
+    .time li {
+        font-size: 1em;
+    } 
+    .time li span {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+
+.about {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/about.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.about #firstdiv {
+    width: 70%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.about #firstdiv #seconddiv {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 50px;
+}
+
+.about #firstdiv #seconddiv #titlesdiv {
+    height: 120px;
+}
+.about #firstdiv #seconddiv #titlesdiv h1 {
+    font-size: 3.3em;
+    line-height: 4rem;
+    font-weight: 900;
+    color: #1b273d;
+}
+.about #firstdiv #seconddiv #titlesdiv h4 {
+    font-size: 1.3em;
+    line-height: 3rem;
+    font-weight: 400;
+    color: #ec398b;
+}
+.about #firstdiv #seconddiv p {
+    font-size: 1.1rem;
+    line-height: 2rem;
+    font-weight: 400;
+    color: rgba(50,51,51,.8);
+}
+
+.about #firstdiv #seconddiv .btn-buy-about {
+    color: white;
+	background: rgba(236,57,139,1);
+	height: 50px;
+	width: 150px;
+	transition: 0.5s;
+    cursor: pointer;
+    box-shadow: 0 8px 6px -6px rgba(50,51,51,.4);
+    margin-top: 20px;
+}
+.about #firstdiv #seconddiv .btn-buy-about:hover  {
+	border-radius: 15px;
+}
+
+@media screen and (max-width: 992px) {
+    .about {
+        background: none;
+        justify-content: space-around;
+        min-height: 400px;
+        height: auto;
+    }
+    
+    .about #firstdiv {
+        width: 90%;
+        justify-content: space-around;
+    }
+    
+    .about #firstdiv #seconddiv {
+        width: 100%;
+        margin: 0;
+    }
+    
+    .about #firstdiv #seconddiv #titlesdiv h1 {
+        font-size: 2.7em;
+    }
+    .about #firstdiv #seconddiv #titlesdiv h4 {
+        font-size: 1.3em;
+    }
+    .about #firstdiv #seconddiv p {
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+    }
+    
+    .about #firstdiv #seconddiv .btn-buy-about {
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about {
+        background: none;
+        justify-content: space-around;
+        min-height: 400px;
+        height: auto;
+    }
+    .about #firstdiv {
+        width: 96%;
+        justify-content: space-around;
+    }
+    .about #firstdiv #seconddiv #titlesdiv {
+        height: 40%;
+    }
+    .about #firstdiv #seconddiv #titlesdiv h1 {
+        font-size: 2em;
+        line-height: 2rem;
+    }
+    .about #firstdiv #seconddiv #titlesdiv h4 {
+        font-size: 1.1em;
+        line-height: 2rem;
+    }
+    .about #firstdiv #seconddiv p {
+        font-size: 0.9rem;
+        line-height: 1.3rem;
+    }
+    
+    .about #firstdiv #seconddiv .btn-buy-about {
+        margin-top: 15px;
+        font-size: 0.9em;
+        font-weight: 400;
+        height: 35px;
+        width: 100px;
+    }
+}
+
+
+
+
+
+.speakers {
+    background: #f1f1f1;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.speakers #cover {
+    width: 95%;
+    max-width: 1360px;
+    max-height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.speakers #cover #speakerstitle {
+    margin-bottom: 50px;
+}
+.speakers #cover #speakerstitle h1{
+    font-size: 3.3em;
+    line-height: 4rem;
+    font-weight: 900;
+    color: #1b273d;
+}
+.speakers #cover #speakerstitle h3{
+    font-size: 1.3em;
+    line-height: 3rem;
+    font-weight: 700;
+    color: rgba(50,51,51,.8);
+}
+
+@media screen and (max-width: 768px) {
+    .speakers #cover #speakerstitle h1{
+        font-size: 2.7em;
+        line-height: 3rem;
+    }
+    .speakers #cover #speakerstitle h3{
+        font-size: 1.1em;
+        line-height: 2rem;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .speakers #cover #speakerstitle h1{
+        font-size: 2.5em;
+    }
+    .speakers #cover #speakerstitle h3{
+        font-size: 1em;
+        line-height: 1.2rem;
+    }
+}
+
+.speakers #cover #cards {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.speakers #cover #cards .card {
+    width: 28%;
+    height: 350px;
+    margin: 20px;
+    border-radius: 20px;
+    background: white;
+    box-shadow: 0px 3px 5px rgba(50,51,51,.4);
+    cursor: pointer;
+    position: relative;
+    display: flex;
+}
+.speakers #cover #cards .card .photo {
+    width: 85%;
+    height: 85%;
+    margin: 7.5%;
+    border-radius: 100%;
+    position: absolute;
+    transition: .2s;
+}
+.speakers #cover #cards .card .speakerabout {
+    width: 0%;
+    height: 0%;
+    border-radius: 15%;
+    margin: 5%;
+    background: rgba(89,81,180,0.8);
+    position: absolute;
+    opacity: 0;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2%;
+
+}
+.speakers #cover #cards .card .speakerabout .speakersocial {
+    width: 90%;
+    margin: 0 5%;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: row;
+    opacity: 0;
+    transition: 5s;
+}
+.speakers #cover #cards .card .speakerabout .speakersocial .iconsocial {
+    margin: 0 5px;
+}
+.speakers #cover #cards .card .speakerabout .speakertext {
+    width: 90%;
+    margin: 0 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.speakers #cover #cards .card .speakerabout .speakertext h1 {
+    color: #efa506;
+}
+.speakers #cover #cards .card .speakerabout .speakertext h4 {
+    color: white;
+    font-weight: 400;
+    line-height: 2rem;
+    font-size: 1.5em;
+}
+
+@media screen and (max-width: 1050px) {
+    .speakers #cover #cards .card {
+        width: 45%;
+        margin: 10px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .speakers #cover {
+        width: 95%;
+    }
+    .speakers #cover #cards .card {
+        width: 100%;
+        height: 550px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .speakers #cover #cards .card {
+        height: 350px;
+    }
+}
+
+
+
+
+
