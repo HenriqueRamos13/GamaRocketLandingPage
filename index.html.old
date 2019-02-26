@@ -25,7 +25,7 @@
         <div class="container">
             <div class="mobile_nav">
                 <button class="burger" title="Open and close menu">
-                    <span class="mobile_nav__label">Abrir e fechar menu</span> <!--Aviso: se o menu for aberto em modo  mobile ele não fecha sozinho até que seja fechado novamente no modo mobile|Ivan-->
+                    <span class="mobile_nav__label">Open and close menu</span>
                     <div class="top stripe"></div>
                     <div class="middle stripe"></div>
                     <div class="bottom stripe"></div>
@@ -38,13 +38,13 @@
                             <a href="/home">Home</a>
                         </li>
                         <li>
+                            <a href="/toplist">Sobre</a>
+                        </li>
+                        <li>
                             <a href="/blog">Palestrantes</a>
                         </li>
                         <li>
                             <a href="/contact">Blog</a>
-                        </li>
-                        <li>
-                            <a href="/toplist">Sobre</a>
                         </li>
                     </ul>
                 </nav>
@@ -58,13 +58,13 @@
                         <a href="/home">Home</a>
                     </li>
                     <li>
+                        <a href="/toplist">Sobre</a>
+                    </li>
+                    <li>
                         <a href="/blog">Palestrantes</a>
                     </li>
                     <li>
                         <a href="/contact">Blog</a>
-                    </li>
-                    <li>
-                        <a href="/toplist">Sobre</a>
                     </li>
                 </ul>
             </nav>
@@ -80,29 +80,29 @@
               </a>
             </div>
           </div>-->
-            <button class="btn-buy">INGRESSO</button>
+            <button class="btn-buy">COMPRAR</button>
         </div>
     </header>
 
     <main>
         <div class="backgorund">
             <div class="texts">
-                <p id="first">#GOTCLIENT?</p> <!--Tem como fazer isso aqui selecionar uma de várias frases que eu colocar num arquivo?|Ivan-->
-                <h1 id="second">Reflita.Inove.Hackeie. Exploda seu negócio.</h1>
+                <p id="first">You can learn anything</p>
+                <h1 id="second"></h1>
                 <div>
-                    <p id="third">Beagá, Brasil.</p>
-                    <p id="fourth">07 de Março, 2019</p>
+                    <p id="third">21 King Street, Dhaka 1205, Bangladesh.</p>
+                    <p id="fourth">23-27 September, 2018</p>
                 </div>
-                <button class="btn-buy-back">INGRESSO</button>
+                <button class="btn-buy-back">COMPRAR</button>
             </div>
         </div>
 
         <div class="time">
             <ul>
-                <li><span id="days"></span>dias</li>
-                <li><span id="hours"></span>Horas</li>
-                <li><span id="minutes"></span>Minutos</li>
-                <li><span id="seconds"></span>Segundos</li>
+                <li><span id="days"></span>days</li>
+                <li><span id="hours"></span>Hours</li>
+                <li><span id="minutes"></span>Minutes</li>
+                <li><span id="seconds"></span>Seconds</li>
             </ul>
         </div>
 
@@ -110,11 +110,15 @@
             <div id="firstdiv">
                 <div id="seconddiv">
                     <div id="titlesdiv">
-                        <h1>MINDSET DIGITAL</h1>
-                        <h4>Um novo consumidor e os desafios do novo mercado</h4>
+                        <h1>HAPPY NEW YEAR 2019</h1>
+                        <h4>Why Happy New Year 2019 ?</h4>
                     </div>
-                    <p>Onicanais, growth hacking</p>
-                    <button class="btn-buy-about">INGRESSO</button>
+                    <p>Morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam,
+                        feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas
+                        semper. Aenean ultricies mi vitae est. Mauris Eonec eu ribero sit amet quam egestas semper.
+                        Aenean are ultricies mi senectus et netus et malesuada fames ac turpis egestas. Vestibulum
+                        tortor quam, feugiat vitae vitae.</p>
+                    <button class="btn-buy-about">COMPRAR</button>
                 </div>
             </div>
         </div>
@@ -122,8 +126,8 @@
         <div class="speakers">
             <div id="cover">
                 <div id="speakerstitle">
-                    <h1>QUEM FALA</h1>
-                    <h3>Speakers descoladíssimos pra expandir nosso horizonte:</h3>
+                    <h1>WHO’S SPEAKING</h1>
+                    <h3>Welcome to the dedicated to building remarkable Speakers!</h3>
                 </div>
                 <div id="cards">
                     <div class="card">
@@ -137,7 +141,7 @@
                             </div>
                             <div class="speakertext">
                                 <h1>Henrique Ramos</h1>
-                                <h4>Dev</h4>
+                                <h4>Developer</h4>
                             </div>
                         </div>
                     </div>
@@ -151,8 +155,8 @@
                                 <a href='#'><img src="img/twt.png" class="iconsocial"></a>
                             </div>
                             <div class="speakertext">
-                                <h1>Ivan Flecha</h1>
-                                <h4>Writer, Inside Sales</h4>
+                                <h1>Henrique Ramos</h1>
+                                <h4>Developer</h4>
                             </div>
                         </div>
                     </div>
@@ -166,8 +170,8 @@
                                 <a href='#'><img src="img/twt.png" class="iconsocial"></a>
                             </div>
                             <div class="speakertext">
-                                <h1>Ingrid Freitas</h1>
-                                <h4>CEO</h4>
+                                <h1>Henrique Ramos</h1>
+                                <h4>Developer</h4>
                             </div>
                         </div>
                     </div>
@@ -223,10 +227,10 @@
         <div class="sponsors">
             <div class="sponsorscover">
                 <div class="sponsorstitle">
-                    <h1>PARCERIAS</h1>
-                    <h3>Orgs descoladíssimas possibilitando nosso meet!</h3>
+                    <h1>OFFICIAL SPONSORS</h1>
+                    <h3>Welcome to the dedicated to building remarkable Sponsores!</h3>
                 </div>
-                <!--LOGO DA GAMA ACADEMY OU O MERO NOME DELA NO CóDIGO É PASSÍVEL DE DESQUALIFICAÇÃO | IVAN
+                <!--
                 <div class="sponsorslogo">
                     <div class="logos">
                         <img src="img/gamalogoblack.png">
@@ -253,15 +257,21 @@
                         <img src="img/gamalogo.png">
                     </div>
                 </div>
+                -->
             </div>
         </div>
--->
+
         <div class="buy">
             <div class="coverbuy">
                 <div class="cardbuy">
-                    <h2>INGRESSO</h2>
-                    <h1>R$ 20</h1>
-                    <button class="btn-card-buy">PEGUE O SEU</button>
+                    <h2>PERSONAL</h2>
+                    <h1>R$ 30</h1>
+                    <button class="btn-card-buy">COMPRAR</button>
+                </div>
+                <div class="cardbuy">
+                    <h2>BUSINESS</h2>
+                    <h1>R$ 50</h1>
+                    <button class="btn-card-buy">COMPRAR</button>
                 </div>
             </div>
         </div>
@@ -309,7 +319,7 @@
         }
 
         let element = document.querySelector('#second');
-        let text = 'CONSUMO 2.0: O perfil do novo consumidor'
+        let text = 'UI CONFERENCE 2019!'
         writer(element, text);
     </script>
 
