@@ -391,6 +391,7 @@ header {
 	width: 200px;
 	transition: 0.5s;
 	cursor: pointer;
+	outline: none;
 }
 .btn-buy:hover {
 	border-radius: 15px;
