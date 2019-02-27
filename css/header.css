@@ -197,7 +197,7 @@ header .container .icons svg {
 }
 
 header {
-	background: rgba(27,39,63,0.9);
+	background: rgba(0,0,0,0.9)/*rgba(27,39,63,0.9)*/;
     height: 100px;
     width: 100%;
     position: fixed;
@@ -385,8 +385,8 @@ header {
 
 
 .btn-buy {
-	color: white;
-	background: rgba(236,57,139,1);
+	color: black;
+	background: #53DBD3/*rgba(236,57,139,1)*/;
 	height: 60%;
 	width: 200px;
 	transition: 0.5s;

@@ -21,12 +21,12 @@
     text-align: center;
 }
 .backgorund .texts #first {
-    color: #efa506;
-    font-size: 5em;
+    color: #007991/*#efa506*/;
+    font-size: 4em;
     font-weight: 300;
 }
 .backgorund .texts #second {
-    font-size: 7em;
+    font-size: 4.5em;
     font-weight: 700;
 }
 .backgorund .texts div {
@@ -47,8 +47,8 @@
 }
 
 .backgorund .texts .btn-buy-back {
-	color: white;
-	background: rgba(236,57,139,1);
+	color: black;
+	background: #53DBD3/*rgba(236,57,139,1)*/;
 	height: 60px;
 	width: 150px;
 	transition: 0.5s;
@@ -129,7 +129,7 @@
 
 
 .time {
-    background: rgba(27,39,63,0.9);
+    background: #007991/*rgba(27,39,63,0.9)*/;
     width: 100%;
     height: 250px;
     display: flex;
@@ -219,8 +219,8 @@
 }
 
 .about #firstdiv #seconddiv .btn-buy-about {
-    color: white;
-	background: rgba(236,57,139,1);
+    color: black;
+	background: #53DBD3/*rgba(236,57,139,1)*/;
 	height: 50px;
 	width: 150px;
 	transition: 0.5s;
@@ -582,7 +582,7 @@
     width: 100%;
     height: auto;
     min-height: 100vh;
-    background: #554CB9;
+    background: url('../img/fundoingresso.jpg')/*#554CB9*/;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -612,7 +612,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background: rgba(239,165,6,1);
+    background: #007991/*rgba(239,165,6,1)*/;
     color: white;
     transition: .5s;
 }
@@ -634,8 +634,8 @@
 }
 
 .buy .cardbuy .btn-card-buy {
-    color: white;
-	background: rgba(236,57,139,1);
+    color: black;
+	background: #53DBD3/*rgba(236,57,139,1)*/;
 	height: 50px;
 	width: 150px;
 	transition: 0.5s;
