@@ -21,9 +21,9 @@
     text-align: center;
 }
 .backgorund .texts #first {
-    color: #007991/*#efa506*/;
+    color: #004d4d/*#efa506*/;
     font-size: 4em;
-    font-weight: 300;
+    font-weight: 600;
 }
 .backgorund .texts #second {
     font-size: 4.5em;
@@ -54,6 +54,7 @@
 	transition: 0.5s;
     cursor: pointer;
     outline: none;
+    font-weight: 600;
 }
 .backgorund .texts .btn-buy-back:hover  {
 	border-radius: 15px;
@@ -228,6 +229,7 @@
     box-shadow: 0 8px 6px -6px rgba(50,51,51,.4);
     margin-top: 20px;
     outline: none;
+    font-weight: 600;
 }
 .about #firstdiv #seconddiv .btn-buy-about:hover  {
 	border-radius: 15px;
@@ -300,6 +302,7 @@
         font-weight: 400;
         height: 35px;
         width: 100px;
+        font-weight: 600;
     }
 }
 
@@ -399,7 +402,7 @@
     height: 0%;
     border-radius: 15%;
     margin: 5%;
-    background: rgba(89,81,180,0.8);
+    background: rgba(0,121,145,0.8)/*rgba(89,81,180,0.8)*/;
     position: absolute;
     opacity: 0;
     transition: 1s;
@@ -430,7 +433,7 @@
     align-items: flex-start;
 }
 .speakers #cover #cards .card .speakerabout .speakertext h1 {
-    color: #efa506;
+    color: white/*#efa506*/;
 }
 .speakers #cover #cards .card .speakerabout .speakertext h4 {
     color: white;
@@ -643,6 +646,7 @@
     box-shadow: 0 8px 6px -6px rgba(50,51,51,.4);
     transition: .5s;
     outline: none;
+    font-weight: 600;
 }
 .buy .cardbuy .btn-card-buy:hover {
     border-radius: 25px;
@@ -669,7 +673,7 @@
 
 
 
-.blog {
+/*.blog {
     width: 100%;
     height: auto;
     min-height: 100vh;
@@ -752,4 +756,4 @@
 .blog .coverblog .moreblogs .cardblog a:hover{
     border-radius: 15px;
     box-shadow: none;
-}
+}*/
