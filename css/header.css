@@ -387,7 +387,7 @@ header {
 .btn-buy {
 	color: black;
 	background: #53DBD3/*rgba(236,57,139,1)*/;
-	height: 60%;
+	height: 50%;
 	width: 200px;
 	transition: 0.5s;
 	cursor: pointer;
@@ -395,6 +395,23 @@ header {
 	font-weight: 600;
 }
 .btn-buy:hover {
+	border-radius: 15px;
+}
+
+.btn-buy-a {
+	color: black;
+	background: #53DBD3/*rgba(236,57,139,1)*/;
+	height: 50px;
+	width: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	transition: 0.5s;
+	cursor: pointer;
+	outline: none;
+	font-weight: 600;
+}
+.btn-buy-a:hover {
 	border-radius: 15px;
 }
 
