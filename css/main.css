@@ -760,3 +760,59 @@
     border-radius: 15px;
     box-shadow: none;
 }*/
+
+
+
+
+
+footer {
+    background: #007991;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+    min-height: 350px;
+    color: white;
+}
+
+.coverfooter {
+    width: 90%;
+    max-width: 1024px;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footeremail {
+    width: 90%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footeremail form #footeremailtext {
+    width: 250px;
+    height: 50px;
+    padding: 5%;
+    background: white;
+}
+
+.footeremail form #footerbutton {
+    height: 50px;
+    width: 100px;
+}
+
+.footerlogo {
+    height: 55%;
+    display: flex;
+    align-items: center;
+}
+
+.footerlogo img {
+    width: 350px;
+    height: 120px;
+}
