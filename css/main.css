@@ -804,6 +804,7 @@ footer {
     height: 50px;
     padding: 5%;
     background: white;
+    outline-style: none;
 }
 
 .footeremail form #footerbutton {
@@ -815,6 +816,7 @@ footer {
     cursor: pointer;
     outline: none;
     font-weight: 600;
+    outline-style: none;
 }
 .footeremail form #footerbutton:hover  {
 	border-radius: 15px;
