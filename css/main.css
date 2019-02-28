@@ -211,7 +211,7 @@
     font-size: 1.3em;
     line-height: 3rem;
     font-weight: 400;  
-    color: #ec398b;
+    color: white/*#ec398b*/;
 }
 .about #firstdiv #seconddiv p {
     font-size: 1.1rem;
@@ -275,7 +275,7 @@
     .about {
         justify-content: space-around;
         min-height: 400px;
-        height: auto;
+        height: 80vh;
     }
     .about #firstdiv {
         width: 96%;
@@ -764,7 +764,7 @@
 
 
 footer {
-    background: #007991;
+    background: #000;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -789,6 +789,13 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
+}
+
+.footeremail form {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
@@ -822,4 +829,11 @@ footer {
 .footerlogo img {
     width: 350px;
     height: 120px;
+}
+
+@media screen and (max-width: 500px) {
+    .footerlogo img {
+        width: 300px;
+        height: 100px;
+    }
 }
