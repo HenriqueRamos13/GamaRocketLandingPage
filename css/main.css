@@ -240,7 +240,6 @@
 
 @media screen and (max-width: 992px) {
     .about {
-        background: none;
         justify-content: space-around;
         min-height: 400px;
         height: auto;
@@ -274,7 +273,6 @@
 
 @media screen and (max-width: 768px) {
     .about {
-        background: none;
         justify-content: space-around;
         min-height: 400px;
         height: auto;
@@ -803,7 +801,16 @@ footer {
 
 .footeremail form #footerbutton {
     height: 50px;
-    width: 100px;
+    width: 120px;
+    color: black;
+	background: #53DBD3/*rgba(236,57,139,1)*/;
+	transition: 0.5s;
+    cursor: pointer;
+    outline: none;
+    font-weight: 600;
+}
+.footeremail form #footerbutton:hover  {
+	border-radius: 15px;
 }
 
 .footerlogo {
