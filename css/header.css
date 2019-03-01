@@ -399,24 +399,28 @@ header {
 }
 
 .btn-buy-a {
-	color: black;
-	background: #53DBD3/*rgba(236,57,139,1)*/;
-	height: 50px;
-	width: 150px;
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
+	color: white;
+	background: #FD9E24/*rgba(236,57,139,1)*/;
+	min-height: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 13px;
 	transition: 0.5s;
-	cursor: pointer;
-	outline: none;
-	font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    font-weight: 550;
+    font-size: 12px;
+    box-shadow: 0 8px 5px -6px black;
+    transition: .5s;
 }
 .btn-buy-a:hover {
 	border-radius: 15px;
 }
 
-@media screen and (max-width: 800px) {
-	.btn-buy {
+@media screen and (max-width: 950px) {
+	.btn-buy-a {
 		display: none;
 	}
 }

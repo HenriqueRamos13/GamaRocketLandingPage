@@ -66,17 +66,25 @@
 }
 
 .backgorund .texts .btn-buy-back {
-	color: black;
-	background: #53DBD3/*rgba(236,57,139,1)*/;
-	height: 60px;
-	width: 150px;
+	color: white;
+	background: #FD9E24/*rgba(236,57,139,1)*/;
+	max-height: 80px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 13px;
 	transition: 0.5s;
     cursor: pointer;
     outline: none;
     font-weight: 600;
+    font-size: 15px;
+    box-shadow: 0 8px 5px -6px black;
+    transition: .5s;
 }
 .backgorund .texts .btn-buy-back:hover  {
-	border-radius: 15px;
+    border-radius: 15px;
+    box-shadow: none;
 }
 
 @media screen and (max-width: 992px){
@@ -168,6 +176,7 @@
 .time li span {
     display: block;
     font-size: 4.5rem;
+    font-weight: 700;
 }
 
 @media screen and (max-width: 500px) {
@@ -242,21 +251,25 @@
 }
 
 .about #firstdiv #seconddiv .btn-buy-about {
-    color: black;
-	background: #53DBD3/*rgba(236,57,139,1)*/;
-	height: 80px;
-	width: 250px;
-    padding:2px;
+    color: white;
+	background: #FD9E24/*rgba(236,57,139,1)*/;
+	min-height: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 13px;
 	transition: 0.5s;
     cursor: pointer;
-    box-shadow: 0 8px 6px -6px rgba(50,51,51,.4);
-    margin-top: 20px;
     outline: none;
-    font-weight: 600;
-    font-size:22px;
+    font-weight: 550;
+    font-size: 12px;
+    box-shadow: 0 8px 5px -6px black;
+    transition: .5s;
 }
 .about #firstdiv #seconddiv .btn-buy-about:hover  {
-	border-radius: 15px;
+    border-radius: 15px;
+    box-shadow: none;
 }
 
 @media screen and (max-width: 992px) {
@@ -283,13 +296,13 @@
         font-size: 1.3em;
     }
     .about #firstdiv #seconddiv p {
-        font-size: 0.9rem;
+        font-size: 0.85rem;
         line-height: 1.5rem;
     }
     
     .about #firstdiv #seconddiv .btn-buy-about {
         margin-top: 15px;
-        font-size:19px;
+        font-size:12px;
     }
 }
 
@@ -315,16 +328,16 @@
         line-height: 2rem;
     }
     .about #firstdiv #seconddiv p {
-        font-size: 0.9rem;
+        font-size: 0.85rem;
         line-height: 1.3rem;
     }
     
     .about #firstdiv #seconddiv .btn-buy-about {
-        margin-top: 15px;
-        font-size: 0.9em;
+        margin-top: 20px;
+        font-size: 11px;
         font-weight: 400;
         height: 35px;
-        width: 100px;
+        width: 170px;
         font-weight: 600;
     }
 }
@@ -454,6 +467,8 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
+    transition: 5s;
+    opacity: 0;
 }
 .speakers #cover #cards .card .speakerabout .speakertext h1 {
     color: white/*#efa506*/;
@@ -627,6 +642,16 @@
     flex-wrap: wrap;
 }
 
+.buy .buytext {
+    height: 370px;
+    width: 55%;
+    color: white;
+    font-weight: 750;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
 .buy .cardbuy {
     width: 35%;
     min-width: 300px;
@@ -689,6 +714,16 @@
         align-items: center;
         color: white;
         transition: .5s;
+    }
+
+    .buy .buytext {
+        height: 370px;
+        width: 70%;
+        color: white;
+        font-weight: 750;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
     }
 }
 
