@@ -234,6 +234,7 @@
     margin-top: 20px;
     outline: none;
     font-weight: 600;
+    font-size:22px;
 }
 .about #firstdiv #seconddiv .btn-buy-about:hover  {
 	border-radius: 15px;
@@ -269,6 +270,7 @@
     
     .about #firstdiv #seconddiv .btn-buy-about {
         margin-top: 15px;
+        font-size:19px;
     }
 }
 
