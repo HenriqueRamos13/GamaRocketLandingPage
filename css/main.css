@@ -790,7 +790,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 60vh;
+    height: auto;
     min-height: 350px;
     color: white;
 }
@@ -815,19 +815,22 @@ footer {
 }
 
 .footeremail form {
-    width: auto;
+    width: 100%;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin: 0 0 50px 0;
 }
 
 .footeremail form #footerinputtext {
     width: 200px;
     height: 50px;
-    padding: 0 5px;
+    padding-left: 15px;
+    margin: 5px 0;
     background: white;
     outline-style: none;
+    border-radius: 3rem;
 }
 
 .footeremail form #footerbutton {
