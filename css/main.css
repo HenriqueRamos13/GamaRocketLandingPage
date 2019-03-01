@@ -404,13 +404,14 @@
         font-size: 1em;
         line-height: 1.2rem;
     }
+
 }
 
 .speakers #cover #cards {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
 }
@@ -489,19 +490,23 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 790px) {
     .speakers #cover {
         width: 95%;
     }
     .speakers #cover #cards .card {
-        width: 100%;
-        height: 550px;
+        width: 80%;
+        height: 450px;
     }
 }
 
 @media screen and (max-width: 500px) {
+    .speakers #cover {
+        width: 100%;
+    }
     .speakers #cover #cards .card {
         height: 350px;
+        width: 100%;
     }
 }
 
