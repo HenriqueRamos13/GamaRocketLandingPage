@@ -815,7 +815,7 @@ footer {
 }
 
 .footeremail form {
-    width: 100%;
+    width: auto;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
