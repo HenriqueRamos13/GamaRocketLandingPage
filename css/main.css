@@ -790,14 +790,14 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 50vh;
+    height: 60vh;
     min-height: 350px;
     color: white;
 }
 
 .coverfooter {
     width: 90%;
-    max-width: 1024px;
+    max-width: 1280px;
     height: 90%;
     display: flex;
     align-items: center;
@@ -815,16 +815,17 @@ footer {
 }
 
 .footeremail form {
+    width: 100%;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.footeremail form #footeremailtext {
-    width: 250px;
+.footeremail form #footerinputtext {
+    width: 200px;
     height: 50px;
-    padding: 5%;
+    padding: 0 5px;
     background: white;
     outline-style: none;
 }
