@@ -89,13 +89,16 @@
 
 @media screen and (max-width: 992px){
     .backgorund {   
-        height: 120vh;
+        height: 130vh;
+    }
+    .backgorund .texts {       
+        margin: 120px auto;
     }
     .backgorund .texts #first {
         font-size: 3em;
     }
     .backgorund .texts #second {
-        font-size: 5em;
+        font-size: 4em;
     }
     .backgorund .texts div #third {
         font-size: 1.6em;
@@ -107,13 +110,13 @@
 
 @media screen and (max-width: 768px){
     .backgorund {   
-        height: 120vh;
+        height: 130vh;
     }
     .backgorund .texts #first {
         font-size: 2.7em;
     }
     .backgorund .texts #second {
-        font-size: 3.5em;
+        font-size: 3.3em;
     }
     .backgorund .texts div {
         width: 100%;
