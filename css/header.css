@@ -117,7 +117,7 @@ header .container .mobile_nav .burger .middle {
 header .container .mobile_nav .burger .bottom {
 	right: 0;
 	top: 0;
-	margin: 14px 0;
+	margin: 12px 0;/*tava 14*/
 	width: 80%;
 }
 
