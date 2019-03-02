@@ -19,7 +19,7 @@
 .backgorund {   
 
     width: 100%;
-    height: 120vh;
+    height: 100vh;
     background-image: url('../img/event.jpg');
     background-position: center;
     background-size: cover;
@@ -31,7 +31,7 @@
 .backgorund .texts {       
     width: 95%;
     height: 60%;
-    margin: auto;
+    margin: 150px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -78,7 +78,7 @@
     cursor: pointer;
     outline: none;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 19px;
     box-shadow: 0 8px 5px -6px black;
     transition: .5s;
 }
@@ -238,7 +238,7 @@
 .about #firstdiv #seconddiv #titlesdiv h4 {
     font-size: 1.3em;
     line-height: 3rem;
-    font-weight: 400;  
+    font-weight: bold;
     color: white/*#ec398b*/;
 }
 .about #firstdiv #seconddiv p {
@@ -253,8 +253,8 @@
 .about #firstdiv #seconddiv .btn-buy-about {
     color: white;
 	background: #FD9E24/*rgba(236,57,139,1)*/;
-	min-height: 50px;
-    width: 200px;
+	min-height: 70px;
+    width: 300px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -264,7 +264,7 @@
     outline: none;
     margin-top: 25px;
     font-weight: 550;
-    font-size: 12px;
+    font-size: 19px;
     box-shadow: 0 8px 5px -6px black;
     transition: .5s;
 }
@@ -311,7 +311,7 @@
     .about {
         justify-content: space-around;
         min-height: 400px;
-        height: 80vh;
+        height: 90vh;
     }
     .about #firstdiv {
         width: 96%;
@@ -331,7 +331,7 @@
         text-align: center;
     }
     .about #firstdiv #seconddiv p {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         line-height: 1.3rem;
     }
     
@@ -343,6 +343,17 @@
         width: 170px;
         font-weight: 600;
         align-self: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about #firstdiv #seconddiv p {
+        font-size: 0.9rem;
+        line-height: 1.3rem;
+        text-align: center;
+    }
+    .about #firstdiv #seconddiv .btn-buy-about {
+        min-height: 60px;
     }
 }
 
@@ -420,9 +431,9 @@
 }
 
 .speakers #cover #cards .card {
-    width: 28%;
-    height: 350px;
-    margin: 20px;
+    width: 22%;
+    height: 290px;
+    margin: 10px;
     border-radius: 20px;
     background: white;
     box-shadow: 0px 3px 5px rgba(50,51,51,.4);
@@ -437,6 +448,7 @@
     border-radius: 100%;
     position: absolute;
     transition: .2s;
+    z-index: 3;
 }
 .speakers #cover #cards .card .speakerabout {
     width: 0%;
@@ -451,7 +463,7 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 2%;
-
+    z-index: 4;
 }
 .speakers #cover #cards .card .speakerabout .speakersocial {
     width: 90%;
@@ -477,12 +489,29 @@
 }
 .speakers #cover #cards .card .speakerabout .speakertext h1 {
     color: white/*#efa506*/;
+    text-align: left;
 }
 .speakers #cover #cards .card .speakerabout .speakertext h4 {
     color: white;
     font-weight: 400;
-    line-height: 2rem;
-    font-size: 1.5em;
+    line-height: 1rem;
+    text-align: left;
+    padding: 0;
+}
+
+.nameincard {
+    position: absolute;
+    bottom: 2px;
+    left: 8px;
+    z-index: 2;
+}
+
+@media screen and (max-width: 1300px) {
+    .speakers #cover #cards .card {
+        width: 45%;
+        margin: 10px;
+        height: 400px;
+    }
 }
 
 @media screen and (max-width: 1050px) {
@@ -520,7 +549,7 @@
 .sponsors {
     width: 100%;
     height: auto;
-    min-height: 100vh;
+    min-height: 75vh;
     background-image: url('../img/sponsors.jpg');
     background-size: cover;
     background-position: center;
@@ -529,7 +558,7 @@
 
 .sponsors .sponsorscover {
     min-width: 100%;
-    min-height: 100vh;
+    min-height: 75vh;
     height: 100%;
     background: rgba(255,255,255,0.8);
     display: flex;
@@ -545,7 +574,7 @@
 }
 .sponsors .sponsorscover .sponsorstitle h1{
     font-size: 3.3em;
-    line-height: 4rem;
+    line-height: 7rem;
     font-weight: 900;
     color: black;
 }
@@ -569,7 +598,7 @@
 .sponsors .sponsorscover .sponsorslogo .logos {
     height: 100px;
     width: 25%;
-    margin: 30px 20px;
+    margin: 0 20px;
     box-shadow: 0 4px 6px rgba(50,51,51,.4);
     background: rgba(255,255,255,0.6);
     display: flex;
@@ -650,7 +679,7 @@
 }
 
 .buy .buytext {
-    height: 370px;
+    height: 300px;
     width: 55%;
     color: white;
     font-weight: 750;
@@ -724,7 +753,7 @@
     }
 
     .buy .buytext {
-        height: 370px;
+        height: 230px;
         width: 80%;
         color: white;
         font-weight: 750;

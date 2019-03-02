@@ -419,6 +419,12 @@ header {
 	border-radius: 15px;
 }
 
+@media screen and (max-width: 1100px) {
+	.btn-buy-a {
+		font-size: 11px;
+	}
+}
+
 @media screen and (max-width: 950px) {
 	.btn-buy-a {
 		display: none;
