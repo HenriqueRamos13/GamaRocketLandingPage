@@ -88,6 +88,9 @@
 }
 
 @media screen and (max-width: 992px){
+    .backgorund {   
+        height: 120vh;
+    }
     .backgorund .texts #first {
         font-size: 3em;
     }
@@ -103,6 +106,9 @@
 }
 
 @media screen and (max-width: 768px){
+    .backgorund {   
+        height: 120vh;
+    }
     .backgorund .texts #first {
         font-size: 2.7em;
     }
