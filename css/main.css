@@ -175,7 +175,7 @@
 } 
 .time li span {
     display: block;
-    font-size: 4.5rem;
+    font-size: 4.6rem;
     font-weight: 700;
 }
 
@@ -187,7 +187,7 @@
         font-size: 1em;
     } 
     .time li span {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
 }
 
@@ -323,13 +323,15 @@
     .about #firstdiv #seconddiv #titlesdiv h1 {
         font-size: 2em;
         line-height: 2rem;
+        text-align: center;
     }
     .about #firstdiv #seconddiv #titlesdiv h4 {
         font-size: 1.1em;
         line-height: 2rem;
+        text-align: center;
     }
     .about #firstdiv #seconddiv p {
-        font-size: 0.85rem;
+        font-size: 0.8rem;
         line-height: 1.3rem;
     }
     
@@ -340,6 +342,7 @@
         height: 35px;
         width: 170px;
         font-weight: 600;
+        align-self: center;
     }
 }
 
@@ -722,12 +725,13 @@
 
     .buy .buytext {
         height: 370px;
-        width: 70%;
+        width: 80%;
         color: white;
         font-weight: 750;
         font-size: 16px;
         display: flex;
         align-items: center;
+        text-align: center;
     }
 }
 
