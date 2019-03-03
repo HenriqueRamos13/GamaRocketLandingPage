@@ -318,7 +318,7 @@
 
     <script>
         document.querySelectorAll('.newWindow').forEach(e => {
-            e.addEventListener('click', () => window.open('https://www.sympla.com.br/consumo-20-o-perfil-do-novo-consumidor__465895'))
+            e.addEventListener('click', () => {fbq('track', 'Lead'); gtag('event', 'cadastrou', {'event_category' : 'botão', 'event_label' : 'FoiParaSympla'});window.open('https://www.sympla.com.br/consumo-20-o-perfil-do-novo-consumidor__465895')})
         })
     </script>
 
