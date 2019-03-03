@@ -20,7 +20,7 @@
 
     width: 100%;
     height: 100vh;
-    background-image: url('../img/event.jpg');
+    background-image: url('../img/event.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -207,7 +207,7 @@
 .about {
     width: 100%;
     height: 100vh;
-    background-image: url('../img/about.jpg');
+    background-image: url('../img/about.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -617,7 +617,7 @@
     border-radius: 15px;
 }
 .sponsors .sponsorscover .sponsorslogo .logos img {
-    width: 50%;
+    width: 70%;
     height: 90%;
     position: absolute;
 }
