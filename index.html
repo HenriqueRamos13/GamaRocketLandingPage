@@ -43,6 +43,61 @@
  fbq('init', '246085952831083');
  fbq('track', 'PageView');
 </script>
+=======
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:url" content="https://meuclientesatisfeito.com"/>
+        <meta property="og:type" content="page"/>
+        <meta property="og:title" content="Consumidor 2.0 | Meu cliente satisfeito"/>
+        <meta property="og:description" content="O consumidor mudou, e você é nosso convidado para descobrir os novos padroes de consumo e como se adequar a eles."/>
+        <meta property="og:image" content="https://meuclientesatisfeito.com/evento.png"/>
+        <meta name="description" content="O consumidor mudou, e você é nosso convidado para descobrir os novos padroes de consumo e como se adequar a eles.">
+        <meta name="keywords" content="sympla, event, evento, meuclientesatisfeito, landingpage">
+        <meta name="author" content="Henrique, Diego">
+        <title>Consumidor 2.0 | Meu cliente satisfeito</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134713675-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-134713675-1');
+      gtag('config','AW-761531403',);
+    </script>
+    <!-- Facebook Pixel Code -->
+    <script>
+     !function(f,b,e,v,n,t,s)
+     {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+     n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+     if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+     n.queue=[];t=b.createElement(e);t.async=!0;
+     t.src=v;s=b.getElementsByTagName(e)[0];
+     s.parentNode.insertBefore(t,s)}(window, document,'script',
+     'https://connect.facebook.net/en_US/fbevents.js');
+     fbq('init', '246085952831083');
+     fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+     src="https://www.facebook.com/tr?id=246085952831083&ev=PageView&noscript=1
+    https://www.facebook.com/tr?id=246085952831083&ev=PageView&noscript=1
+    "
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+    <!-- Hotjar Tracking Code for http://meuclientesatisfeito.com -->
+    <script>
+    (function(h,o,t,j,a,r){
+    h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+    h._hjSettings={hjid:1207851,hjsv:6};
+    a=o.getElementsByTagName('head')[0];
+    r=o.createElement('script');r.async=1;
+    r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+    a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+	
+	<link rel="icon" type="image/png" href="favicon/favicon.png" />
+>>>>>>> 8520fce5e14752f8359e690539d350dd11072e12
 
 <noscript><img height="1" width="1" style="display:none"
  src="https://www.facebook.com/tr?id=246085952831083&ev=PageView&noscript=1
@@ -81,13 +136,13 @@ a.appendChild(r);
                 <nav>
                     <ul>
                         <li>
-                            <a href="#c1" class="page-scroll">Home</a>
+                            <a href="#c1" onClick="gtag('event', 'navegacaoMobile', {'event_category' : 'linkMenu', 'event_label' : 'FoiParaHome'});" class="page-scroll">Home</a>
                         </li>
                         <li>
-                            <a href="#c3" class="page-scroll">Palestrantes</a>
+                            <a href="#c3" onClick="gtag('event', 'navegacaoMobile', {'event_category' : 'linkMenu', 'event_label' : 'FoiParaPalestrantes'});" class="page-scroll">Palestrantes</a>
                         </li>
                         <li>
-                            <a href="#c2" class="page-scroll">Sobre</a>
+                            <a href="#c2" onClick="gtag('event', 'navegacaoMobile', {'event_category' : 'linkMenu', 'event_label' : 'FoiParaSobre'});" class="page-scroll">Sobre</a>
                         </li>
                         <!--<li>
                             <a href="#c4" class="page-scroll">Blog</a>
@@ -96,18 +151,18 @@ a.appendChild(r);
                 </nav>
             </div>
             <div class="logo">
-                <img src="img/logo.png">
+                <img src="img/logo.png" alt="Logotipo do Meu Cliente Satisfeito">
             </div>
             <nav class="head_nav">
                 <ul>
                     <li>
-                        <a href="#c1" class="page-scroll">Home</a>
+                        <a href="#c1" onClick="gtag('event', 'navegacao', {'event_category' : 'linkMenu', 'event_label' : 'FoiParaHome'});" class="page-scroll">Home</a>
                     </li>
                     <li>
-                        <a href="#c2" class="page-scroll">Sobre</a>
+                        <a href="#c2" onClick="gtag('event', 'navegacao', {'event_category' : 'linkMenu', 'event_label' : 'FoiParaSobre'});" class="page-scroll">Sobre</a>
                     </li>
                     <li>
-                        <a href="#c3" class="page-scroll">Palestrantes</a>
+                        <a href="#c3" onClick="gtag('event', 'navegacao', {'event_category' : 'linkMenu', 'event_label' : 'FoiParaPalestrantes'});" class="page-scroll">Palestrantes</a>
                     </li>
                     <!--<li>
                         <a href="#c4" class="page-scroll">Blog</a>
@@ -117,7 +172,7 @@ a.appendChild(r);
             <!--
             <button class="btn-buy newWindow">Garanta seu ingresso</button>
             -->
-            <a class="btn-buy-a" href="https://www.sympla.com.br/consumo-20-o-perfil-do-novo-consumidor__465895" target="_blank">GARANTA SEU INGRESSO</a>
+            <a class="btn-buy-a" href="https://www.sympla.com.br/consumo-20-o-perfil-do-novo-consumidor__465895" target="_blank" onClick="gtag('event', 'cadastrou', {'event_category' : 'botao', 'event_label' : 'FoiParaSympla1'}); fbq('track', 'Lead');">GARANTA SEU INGRESSO</a>
         </div>
     </header>
 
@@ -125,13 +180,13 @@ a.appendChild(r);
         <div class="backgorund" id="c1">
             <div class="texts">
                 <p id="first">#VAMAISLONGE</p> <!--Tem como fazer isso aqui selecionar uma de vÃ¡rias frases que eu colocar num arquivo?|Ivan-->
-                <h1 id="second">PESQUISA DE MERCADO NA (NOVA) ERA DIGITAL</h1>
+                <h1 id="second">PERFIL DO CONSUMIDOR NA (NOVA) ERA DIGITAL</h1>
                 <div>
-                    <p id="third">Beagá, Brasil</p>
-                    <p id="fourth">07 de Março, 2019</p>
+                    <p id="third">Beagá, 07 de Março, 2019</p>
+                    <p id="fourth"></p>
                 </div>
                 
-                <a class="btn-buy-back" href="https://www.sympla.com.br/consumo-20-o-perfil-do-novo-consumidor__465895" target="_blank" style="height: 100px;">GARANTA SEU INGRESSO</a>
+                <a class="btn-buy-back" href="https://www.sympla.com.br/consumo-20-o-perfil-do-novo-consumidor__465895" target="_blank" style="height: 100px;" onClick="gtag('event', 'cadastrou', {'event_category' : 'botao', 'event_label' : 'FoiParaSympla2'}); fbq('track', 'Lead');">GARANTA SEU INGRESSO</a>
             </div>
         </div>
 
@@ -151,9 +206,23 @@ a.appendChild(r);
                         <h1>MINDSET DIGITAL</h1>
                         <h4>APRENDA COMO HACKEAR O MERCADO</h4>
                     </div>
+                    <p>
+                    Conheça um novo jeito de pensar que lhe dará o potencial de 
+hackear <br>o mercado e conquistar mais espaço no lifestyle de seus clientes.<br>
+Satisfação do cliente não basta.<br>
+É preciso entender como as pessoas se relacionam com sua marca;<br>
+o que você pode fazer para que elas a divulguem a futuros clientes;<br>
+E, o mais importante,<br>
+como estudar as informações de seus clientes para explorar novos negócios:<br> 
+<p>&nbsp;- Traçando o perfil de seus buyers ideais para futuras campanhas;</p> 
+<p>&nbsp;- Implementando táticas de growth hacking naquele perfil específico;</p>  
+<p>&nbsp;- Praticando cross-selling e up-selling.</p>
+                    </p>
+                    <!--
                     <p>Você que já empreende de alguma forma e já tem clientes poderá aprender como hackear o mercado e conquistar mais espaço no lifestyle de seus clientes. Satisfação do cliente apenas não basta, é preciso entender como as pessoas se relacionam com sua marca, o que você pode fazer para que elas divulguem-na para você e o mais importante, como estudar as informações dos clientes que já tem para descobrir como conseguir mais negócios - seja traçando o perfil de seus buyers ideais para futuras campanhas, implementando táticas de growth hacking naquele perfil específico ou mesmo cross-selling e up-selling que você ainda não tenha explorado.</p>
+                    -->
                     <!--<button class="btn-buy-about newWindow">APRENDER COM OS MELHORES</button>-->
-                    <a class="btn-buy-about" href="https://www.sympla.com.br/consumo-20-o-perfil-do-novo-consumidor__465895" target="_blank">GARANTA SEU INGRESSO</a>
+                    <a class="btn-buy-about" href="https://www.sympla.com.br/consumo-20-o-perfil-do-novo-consumidor__465895" target="_blank" onClick="gtag('event', 'cadastrou', {'event_category' : 'botao', 'event_label' : 'FoiParaSympla1'}); fbq('track', 'Lead');">GARANTA SEU INGRESSO</a>
                 </div>
             </div>
         </div>
@@ -166,99 +235,89 @@ a.appendChild(r);
                 </div>
                 <div id="cards">
                     <div class="card">
-                        <img src="img/ronaldovieiracoach.jpg" class="photo">
+                        <img src="img/ronaldovieiracoach.jpg" alt="Foto do Ronaldo Vieira" class="photo">
                         <div class="speakerabout">
                             <div class="speakersocial">
-                                <a href='#'><img src="img/face.png" class="iconsocial"></a>
-                                <a href='#'><img src="img/insta.png" class="iconsocial"></a>
-                                <a href='#'><img src="img/in.png" class="iconsocial"></a>
-                                <a href='#'><img src="img/twt.png" class="iconsocial"></a>
+                                <a href="#" onClick="gtag('event', 'Facebook', {'event_category' : 'palestrantes', 'event_label' : 'Ronaldo'});"><img src="img/face.png" alt="Facebook do Ronaldo" class="iconsocial"></a>
+                                <a href="#" onClick="gtag('event', 'Instagram', {'event_category' : 'palestrantes', 'event_label' : 'Ronaldo'});"><img src="img/insta.png" alt="Instagram do Ronaldo" class="iconsocial"></a>
+                                <a href="#" onClick="gtag('event', 'Linkedin', {'event_category' : 'palestrantes', 'event_label' : 'Ronaldo'});"><img src="img/in.png" alt="Linkedin do Ronaldo" class="iconsocial"></a>
+                                <a href="#" onClick="gtag('event', 'Twitter', {'event_category' : 'palestrantes', 'event_label' : 'Ronaldo'});"><img src="img/twt.png" alt="Twitter do Ronaldo" class="iconsocial"></a>
                             </div>
                             <div class="speakertext">
                                 <h1>Ronaldo Vieira Santos</h1>
                                 <h4>Master Coach</h4>
                             </div>
                         </div>
+                        <h2 class="nameincard">Ronaldo Vieira</h2>
                     </div>
                     <div class="card">
-                        <img src="img/fernandolucio.jpg" class="photo">
+                        <img src="img/fernandolucio.jpg" alt="Foto do Fernando Lúcio" class="photo">
                         <div class="speakerabout">
                             <div class="speakersocial">
-                                <a href='#'><img src="img/face.png" class="iconsocial"></a>
-                                <a href='#'><img src="img/insta.png" class="iconsocial"></a>
-                                <a href='#'><img src="img/in.png" class="iconsocial"></a>
-                                <a href='#'><img src="img/twt.png" class="iconsocial"></a>
+                                <a href="#" onClick="gtag('event', 'Facebook', {'event_category' : 'palestrantes', 'event_label' : 'Fernando'});"><img src="img/face.png" alt="Facebook do Fernando" class="iconsocial"></a>
+                                <a href="#" onClick="gtag('event', 'Instagram', {'event_category' : 'palestrantes', 'event_label' : 'Fernando'});"><img src="img/insta.png" alt="Instagram do Fernando" class="iconsocial"></a>
+                                <a href="#" onClick="gtag('event', 'Linkedin', {'event_category' : 'palestrantes', 'event_label' : 'Fernando'});"><img src="img/in.png" alt="Linkedin do Fernando" class="iconsocial"></a>
+                                <a href="#" onClick="gtag('event', 'Twitter', {'event_category' : 'palestrantes', 'event_label' : 'Fernando'});"><img src="img/twt.png" alt="Twitter do Fernando" class="iconsocial"></a>
                             </div>
                             <div class="speakertext">
                                 <h1>Fernando Lúcio</h1>
                                 <h4>Empreendedor, especialista em startups, e-businness, marketing digital, professor de e-marketing</h4>
                             </div>
                         </div>
+                        <h2 class="nameincard">Fernando Lúcio</h2>
                     </div>
                     <div class="card">
-                        <img src="img/people.jpg" class="photo">
+                        <img src="img/marcosdemorais.jpg" alt="Foto do Marcos de Morais" class="photo">
                         <div class="speakerabout">
                             <div class="speakersocial">
-                                <a href='#'><img src="img/face.png" class="iconsocial"></a>
-                                <a href='#'><img src="img/insta.png" class="iconsocial"></a>
-                                <a href='#'><img src="img/in.png" class="iconsocial"></a>
-                                <a href='#'><img src="img/twt.png" class="iconsocial"></a>
+                               <a href="#" onClick="gtag('event', 'Facebook', {'event_category' : 'palestrantes', 'event_label' : 'Marcos'});"><img src="img/face.png" alt="Facebook do Marcos" class="iconsocial"></a>
+                               <a href="#" onClick="gtag('event', 'Instagram', {'event_category' : 'palestrantes', 'event_label' : 'Marcos'});"><img src="img/insta.png" alt="Instagram do Marcos" class="iconsocial"></a>
+                               <a href="#" onClick="gtag('event', 'Linkedin', {'event_category' : 'palestrantes', 'event_label' : 'Marcos'});"><img src="img/in.png" alt="Linkedin do Marcos" class="iconsocial"></a>
+                               <a href="#" onClick="gtag('event', 'Twitter', {'event_category' : 'palestrantes', 'event_label' : 'Marcos'});"><img src="img/twt.png" alt="Twitter do Marcos" class="iconsocial"></a>
                             </div>
                             <div class="speakertext">
-                                <h1>Palestre conosco! Queremos você!</h1>
-                                <h4>Seu cargo</h4>
+                                <h1>Marcos de Morais</h1>
+                                <h4>CEO Meu Primeiro Apê</h4>
                             </div>
                         </div>
+                        <h2 class="nameincard">Marcos de Morais</h2>
                     </div>
                     <div class="card">
-                        <img src="img/people.jpg" class="photo">
+                        <img src="img/sinval.png" alt="Foto do Sinval Espírito Santo" class="photo">
                         <div class="speakerabout">
                             <div class="speakersocial">
-                                <a href='#'><img src="img/face.png" class="iconsocial"></a>
-                                <a href='#'><img src="img/insta.png" class="iconsocial"></a>
-                                <a href='#'><img src="img/in.png" class="iconsocial"></a>
-                                <a href='#'><img src="img/twt.png" class="iconsocial"></a>
+                               <a href="#" onClick="gtag('event', 'Facebook', {'event_category' : 'palestrantes', 'event_label' : 'Ronaldo'});"><img src="img/face.png" alt="Facebook do Sinval" class="iconsocial"></a>
+                               <a href="#" onClick="gtag('event', 'Instagram', {'event_category' : 'palestrantes', 'event_label' : 'Sinval'});"><img src="img/insta.png" alt="Instagram do Sinval" class="iconsocial"></a>
+                               <a href="#" onClick="gtag('event', 'Linkedin', {'event_category' : 'palestrantes', 'event_label' : 'Sinval'});"><img src="img/in.png" alt="Linkedin do Sinval" class="iconsocial"></a>
+                               <a href="#" onClick="gtag('event', 'Twitter', {'event_category' : 'palestrantes', 'event_label' : 'Sinval'});"><img src="img/twt.png" alt="Twitter do Sinval" class="iconsocial"></a>
                             </div>
                             <div class="speakertext">
-                                <h1>Palestre conosco! Queremos você!</h1>
-                                <h4>Seu cargo</h4>
+                                <h1>Sinval Espírito Santo</h1>
+                                <h4>Chef Tibo Cucina</h4>
                             </div>
                         </div>
-                    </div>
-                    <div class="card">
-                        <img src="img/people.jpg" class="photo">
-                        <div class="speakerabout">
-                            <div class="speakersocial">
-                                <a href='#'><img src="img/face.png" class="iconsocial"></a>
-                                <a href='#'><img src="img/insta.png" class="iconsocial"></a>
-                                <a href='#'><img src="img/in.png" class="iconsocial"></a>
-                                <a href='#'><img src="img/twt.png" class="iconsocial"></a>
-                            </div>
-                            <div class="speakertext">
-                                <h1>Palestre conosco! Queremos você!</h1>
-                                <h4>Seu cargo</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="img/people.jpg" class="photo">
-                        <div class="speakerabout">
-                            <div class="speakersocial">
-                                <a href='#'><img src="img/face.png" class="iconsocial"></a>
-                                <a href='#'><img src="img/insta.png" class="iconsocial"></a>
-                                <a href='#'><img src="img/in.png" class="iconsocial"></a>
-                                <a href='#'><img src="img/twt.png" class="iconsocial"></a>
-                            </div>
-                            <div class="speakertext">
-                                <h1>Palestre conosco! Queremos você!</h1>
-                                <h4>Seu cargo</h4>
-                            </div>
-                        </div>
+                        <h2 class="nameincard">Sinval Espírito Santo</h2>
                     </div>
                 </div>
             </div>
         </div>
 
+		<div class="buy">
+            <div class="coverbuy">
+                <!--<div class="cardbuy">
+                    <h2>INGRESSE!</h2>
+                    <h1>R$ 20</h1>
+                    
+                    <button class="btn-card-buy newWindow">NÃO VOU FICAR DE FORA</button></div>-->
+
+                <div class="buytext">
+                    <h2>Garanta agora seu ingresso e saiba mais sobre a mudança de mindset do consumidor.</h2>
+                </div>
+                             
+                <div id="sympla-widget-465895" style="width: 700px; min-width: 300px; min-height: 450px;" onClick="gtag('event', 'cadastrou', {'event_category' : 'botao', 'event_label' : 'FoiParaSympla1'}); fbq('track', 'Lead');"><script src="https://www.sympla.com.br/js/sympla.widget-pt.js/465895"></script></div> 
+            </div>
+        </div>
+		
         <div class="sponsors">
             <div class="sponsorscover">
                 <div class="sponsorstitle">
@@ -268,40 +327,15 @@ a.appendChild(r);
                 <!--SEM LOGOS POR ENQUANTO-->
                 <div class="sponsorslogo">
                     <div class="logos">
-                        <img src="img/logox.png">
+                        <img src="img/logofumsoft.png" alt="Logotipo da Fumsoft, parceira do evento">
                     </div>
                     <div class="logos">
-                        <img src="img/logox.png">
+                        <img src="img/logox.png" alt="Seja você também um parceiro">
                     </div>
                     <div class="logos">
-                        <img src="img/logox.png">
-                    </div>
-                    <div class="logos">
-                        <img src="img/logox.png">
-                    </div>
-                    <div class="logos">
-                        <img src="img/logox.png">
-                    </div>
-                    <div class="logos">
-                        <img src="img/logox.png">
+                        <img src="img/logox.png" alt="Seja você também um parceiro">
                     </div>
                 </div>
-            </div>
-        </div>
-
-        <div class="buy">
-            <div class="coverbuy">
-                <!--<div class="cardbuy">
-                    <h2>INGRESSE!</h2>
-                    <h1>R$ 20</h1>
-                    
-                    <button class="btn-card-buy newWindow">NÃO VOU FICAR DE FORA</button></div>-->
-
-                <div class="buytext">
-                    <h1>Garanta agora seu ingresso e saiba mais sobre a mudança de mindset do consumidor.</h1>
-                </div>
-                    
-                <div id="sympla-widget-465895" style="width: 700px; min-width: 300px; min-height: 450px;"><script src="https://www.sympla.com.br/js/sympla.widget-pt.js/465895"></script></div> 
             </div>
         </div>
 
@@ -351,14 +385,14 @@ a.appendChild(r);
                 </form>
             </div>-->
             <div class="footerlogo">
-                <img src="img/logo.png">
+                <img src="img/logo.png" alt="Logotipo do Meu Cliente Satisfeito">
             </div>
         </div>
     </footer>
 
     <script>
         document.querySelectorAll('.newWindow').forEach(e => {
-            e.addEventListener('click', () => window.open('https://www.sympla.com.br/consumo-20-o-perfil-do-novo-consumidor__465895'))
+            e.addEventListener('click', () => {fbq('track', 'Lead'); gtag('event', 'cadastrou', {'event_category' : 'botao', 'event_label' : 'FoiParaSympla'});window.open('https://www.sympla.com.br/consumo-20-o-perfil-do-novo-consumidor__465895')})
         })
     </script>
 
@@ -371,7 +405,7 @@ a.appendChild(r);
             e.addEventListener('mouseover', () => {
                 e.children[0].style = 'width: 100%; height: 100%; margin: 0; border-radius: 20px;';
                 e.children[1].style = 'opacity: 1; width: 90%; height: 90%;';
-                e.children[1].children[0].style = 'opacity: 1;';
+                e.children[1].children[0].style = 'opacity: 0;';
                 e.children[1].children[1].style = 'opacity: 1;';
             })
 
@@ -402,7 +436,7 @@ a.appendChild(r);
         }
 
         let element = document.querySelector('#second');
-        let text = 'PESQUISA DE MERCADO NA (NOVA) ERA DIGITAL'/*'CONSUMO 2.0: O perfil do novo consumidor'*/
+        let text = 'PERFIL DO CONSUMIDOR NA (NOVA) ERA DIGITAL'/*'CONSUMO 2.0: O perfil do novo consumidor'*/
         writer(element, text);
     </script>
 

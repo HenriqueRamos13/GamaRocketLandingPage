@@ -4,7 +4,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     height: auto;
-    min-height: 350px;
+    min-height: 100px;
     color: white;
 }
 
@@ -68,13 +68,16 @@ footer {
 }
 
 .footerlogo img {
-    width: 350px;
-    height: 120px;
+    width: 200px;
+    height: 70px;
 }
 
 @media screen and (max-width: 500px) {
-    .footerlogo img {
-        width: 300px;
+    footer {
         height: 100px;
+    }
+    .footerlogo img {
+        width: 200px;
+        height: 70px;
     }
 }

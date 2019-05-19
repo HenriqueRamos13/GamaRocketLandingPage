@@ -19,8 +19,8 @@
 .backgorund {   
 
     width: 100%;
-    height: 120vh;
-    background-image: url('../img/event.jpg');
+    height: 100vh;
+    background-image: url('../img/event.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -31,7 +31,7 @@
 .backgorund .texts {       
     width: 95%;
     height: 60%;
-    margin: auto;
+    margin: 150px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -78,7 +78,7 @@
     cursor: pointer;
     outline: none;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 19px;
     box-shadow: 0 8px 5px -6px black;
     transition: .5s;
 }
@@ -88,11 +88,17 @@
 }
 
 @media screen and (max-width: 992px){
+    .backgorund {   
+        height: 130vh;
+    }
+    .backgorund .texts {       
+        margin: 120px auto;
+    }
     .backgorund .texts #first {
         font-size: 3em;
     }
     .backgorund .texts #second {
-        font-size: 5em;
+        font-size: 4em;
     }
     .backgorund .texts div #third {
         font-size: 1.6em;
@@ -103,11 +109,14 @@
 }
 
 @media screen and (max-width: 768px){
+    .backgorund {   
+        height: 130vh;
+    }
     .backgorund .texts #first {
         font-size: 2.7em;
     }
     .backgorund .texts #second {
-        font-size: 3.5em;
+        font-size: 3.3em;
     }
     .backgorund .texts div {
         width: 100%;
@@ -175,7 +184,7 @@
 } 
 .time li span {
     display: block;
-    font-size: 4.5rem;
+    font-size: 4.6rem;
     font-weight: 700;
 }
 
@@ -187,7 +196,7 @@
         font-size: 1em;
     } 
     .time li span {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
 }
 
@@ -198,7 +207,7 @@
 .about {
     width: 100%;
     height: 100vh;
-    background-image: url('../img/about.jpg');
+    background-image: url('../img/about.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -238,7 +247,7 @@
 .about #firstdiv #seconddiv #titlesdiv h4 {
     font-size: 1.3em;
     line-height: 3rem;
-    font-weight: 400;  
+    font-weight: bold;
     color: white/*#ec398b*/;
 }
 .about #firstdiv #seconddiv p {
@@ -253,8 +262,8 @@
 .about #firstdiv #seconddiv .btn-buy-about {
     color: white;
 	background: #FD9E24/*rgba(236,57,139,1)*/;
-	min-height: 50px;
-    width: 200px;
+	min-height: 70px;
+    width: 300px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -264,7 +273,7 @@
     outline: none;
     margin-top: 25px;
     font-weight: 550;
-    font-size: 12px;
+    font-size: 19px;
     box-shadow: 0 8px 5px -6px black;
     transition: .5s;
 }
@@ -311,7 +320,7 @@
     .about {
         justify-content: space-around;
         min-height: 400px;
-        height: 80vh;
+        height: 90vh;
     }
     .about #firstdiv {
         width: 96%;
@@ -323,13 +332,15 @@
     .about #firstdiv #seconddiv #titlesdiv h1 {
         font-size: 2em;
         line-height: 2rem;
+        text-align: center;
     }
     .about #firstdiv #seconddiv #titlesdiv h4 {
         font-size: 1.1em;
         line-height: 2rem;
+        text-align: center;
     }
     .about #firstdiv #seconddiv p {
-        font-size: 0.85rem;
+        font-size: 0.9rem;
         line-height: 1.3rem;
     }
     
@@ -340,6 +351,18 @@
         height: 35px;
         width: 170px;
         font-weight: 600;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about #firstdiv #seconddiv p {
+        font-size: 0.9rem;
+        line-height: 1.3rem;
+        text-align: center;
+    }
+    .about #firstdiv #seconddiv .btn-buy-about {
+        min-height: 60px;
     }
 }
 
@@ -417,9 +440,9 @@
 }
 
 .speakers #cover #cards .card {
-    width: 28%;
-    height: 350px;
-    margin: 20px;
+    width: 22%;
+    height: 290px;
+    margin: 10px;
     border-radius: 20px;
     background: white;
     box-shadow: 0px 3px 5px rgba(50,51,51,.4);
@@ -434,6 +457,7 @@
     border-radius: 100%;
     position: absolute;
     transition: .2s;
+    z-index: 3;
 }
 .speakers #cover #cards .card .speakerabout {
     width: 0%;
@@ -448,7 +472,7 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 2%;
-
+    z-index: 4;
 }
 .speakers #cover #cards .card .speakerabout .speakersocial {
     width: 90%;
@@ -474,12 +498,29 @@
 }
 .speakers #cover #cards .card .speakerabout .speakertext h1 {
     color: white/*#efa506*/;
+    text-align: left;
 }
 .speakers #cover #cards .card .speakerabout .speakertext h4 {
     color: white;
     font-weight: 400;
-    line-height: 2rem;
-    font-size: 1.5em;
+    line-height: 1rem;
+    text-align: left;
+    padding: 0;
+}
+
+.nameincard {
+    position: absolute;
+    bottom: 2px;
+    left: 8px;
+    z-index: 2;
+}
+
+@media screen and (max-width: 1300px) {
+    .speakers #cover #cards .card {
+        width: 45%;
+        margin: 10px;
+        height: 400px;
+    }
 }
 
 @media screen and (max-width: 1050px) {
@@ -517,7 +558,7 @@
 .sponsors {
     width: 100%;
     height: auto;
-    min-height: 100vh;
+    min-height: 75vh;
     background-image: url('../img/sponsors.jpg');
     background-size: cover;
     background-position: center;
@@ -526,7 +567,7 @@
 
 .sponsors .sponsorscover {
     min-width: 100%;
-    min-height: 100vh;
+    min-height: 75vh;
     height: 100%;
     background: rgba(255,255,255,0.8);
     display: flex;
@@ -542,7 +583,7 @@
 }
 .sponsors .sponsorscover .sponsorstitle h1{
     font-size: 3.3em;
-    line-height: 4rem;
+    line-height: 7rem;
     font-weight: 900;
     color: black;
 }
@@ -566,7 +607,7 @@
 .sponsors .sponsorscover .sponsorslogo .logos {
     height: 100px;
     width: 25%;
-    margin: 30px 20px;
+    margin: 0 20px;
     box-shadow: 0 4px 6px rgba(50,51,51,.4);
     background: rgba(255,255,255,0.6);
     display: flex;
@@ -576,7 +617,7 @@
     border-radius: 15px;
 }
 .sponsors .sponsorscover .sponsorslogo .logos img {
-    width: 50%;
+    width: 70%;
     height: 90%;
     position: absolute;
 }
@@ -587,6 +628,13 @@
 }
 .sponsors .sponsorscover .sponsorslogo .logos img:hover {
     filter: grayscale(0);
+}
+
+@media screen and (max-width: 900px) {
+    .sponsors .sponsorscover .sponsorstitle h1{
+        font-size: 2.7em;
+        line-height: 3rem;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -647,7 +695,7 @@
 }
 
 .buy .buytext {
-    height: 370px;
+    height: 300px;
     width: 55%;
     color: white;
     font-weight: 750;
@@ -721,13 +769,14 @@
     }
 
     .buy .buytext {
-        height: 370px;
-        width: 70%;
+        height: 230px;
+        width: 80%;
         color: white;
         font-weight: 750;
         font-size: 16px;
         display: flex;
         align-items: center;
+        text-align: center;
     }
 }
 
